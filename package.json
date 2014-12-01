@@ -1,0 +1,37 @@
+{
+  "name": "koast-aws",
+  "version": "0.0.1",
+  "description": "Abstraction of AWS S3",
+  "main": "/lib/s3upload.js",
+  "scripts": {
+    "test": "mocha --recursive ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rangle/koast-aws.git"
+  },
+  "keywords": [
+    "AWS",
+    "S3"
+  ],
+  "author": "rangle.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rangle/koast-aws/issues"
+  },
+  "homepage": "https://github.com/rangle/koast-aws",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "express": "^4.10.4",
+    "mocha": "^2.0.1",
+    "multer": "^0.1.6",
+    "superagent": "^0.21.0",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.0.29",
+    "fs": "0.0.2",
+    "lodash": "^2.4.1",
+    "q": "^1.1.2"
+  }
+}
