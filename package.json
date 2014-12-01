@@ -23,8 +23,10 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "express": "^4.10.4",
+    "gulp": "^3.8.10",
     "mocha": "^2.0.1",
     "multer": "^0.1.6",
+    "rangle-gulp": "0.0.7",
     "superagent": "^0.21.0",
     "supertest": "^0.15.0"
   },
