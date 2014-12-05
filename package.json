@@ -1,10 +1,10 @@
 {
   "name": "koast-aws",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Abstraction of AWS S3",
   "main": "/lib/s3upload.js",
   "scripts": {
-    "test": "mocha --recursive ./lib"
+    "test": "gulp mocha"
   },
   "repository": {
     "type": "git",
